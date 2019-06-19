@@ -71,7 +71,7 @@ uint8_t bt_sniff_find_st_available(void)
     {
         if(g_sniff_st[idx].is_used == 0)
         {
-            return idx;
+//            return idx;
         }
     }
     return 0;
